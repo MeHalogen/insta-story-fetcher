@@ -1,0 +1,42 @@
+{
+  "name": "insta-story-fetcher",
+  "version": "1.0.0",
+  "description": "Download and extract Instagram stories, highlights, and reels anonymously using rotating proxy protocols.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "utility",
+    "insta-story-fetcher",
+    "instagram",
+    "story",
+    "downloader",
+    "stealth",
+    "viewer"
+  ],
+  "author": "Antigravity Factory Manager",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeHalogen/insta-story-fetcher.git"
+  },
+  "homepage": "https://github.com/MeHalogen/insta-story-fetcher#readme"
+}
